@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body, html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #mainContainer, #contentCol {
+  background-color: #252525;
+}
+
+/* don't want to know about friends */
+div#pagelet_friends_online {
+  display: none;
+}
+
+/* hide right col */
+div#rightCol {
+  display: none;
+}
+
+/* hide other stuff also */
+#pagelet_ego_pane_w, #pagelet_rhc_footer, #pagesNav, #navItem_app_2356318349, #adsNav, #appsNav, #groupsNav, #pagelet_welcome_box, #profile_pic_header_100003369472949, #findFriendsNav {
+  display: none;
+}
+
+
+
+/* style left column (what's left of it anyway) */
+.uiSideNav .item, .uiSideNav .subitem {
+  color: #fafafa;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #252525;
+  letter-spacing: .1em;
+}
+
+/* selected style */
+.uiSideNav .selectedItem .item, .uiSideNav .selectedItem .item:hover, .uiSideNav ul .selectedItem .subitem, .uiSideNav ul .selectedItem .subitem:hover {
+  background-color: #666;
+}
+
+/* all images are instant cool */
+.shareMediaPhoto, .uiPhotoThumb, .profilePic  {
+  box-shadow: 0px 0px 7px black;
+}
+       
+
+/* borders colors */
+.hasLeftCol #contentCol {
+  border-left: 1px solid #252525;
+}
+
+._4ks > li{
+  border-color: #333;
+    border-top-width: 3px;
+  }
+  
+  /* content top straight line */
+.uiStream .uiStreamHeader {
+  background-color: #333;
+        height: 3px;
+      }
+
+/* hide right col */
+div#rightCol {
+  display: none;
+}
+
+.uiStreamRedesign .uiStreamMessage .messageBody {
+  color: #afafaf;
+      }
+      
+      .hasLeftCol #mainContainer {
+        border-right-width: 0px;
+      }
+      
+      .hasLeftCol .homeWiderContent div#contentArea{
+    padding-left: 48px;
+            width: 725px;
+          }
+          .shareRedesignText, .shareRedesignContainer, .shareRedesign .shareMediaVideo {
+          background-color: inherit;
+            }
+
+div#pagelet_friends_online {
+  display: none;
+}
+
+
+
+._118{
+  background-color: #252525;
+  }
+  ._1dsp {
+  background-color: #252525;
+  border-top: 2px solid #353535;
+  }
+
+._1dsq{
+  border-right: 2px solid #353535;
+  }
+
+._2yg {
+  border: 2px solid #444;
+}
+
+  .UFIRow {
+  background-color: #444;
+    }
+    
+    .ReactLegacyMentionsInput {
+    background-color: #aaa;
+      }
+  
+      .UFICommentContent{
+      color: #ccc;
+        }
