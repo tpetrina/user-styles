@@ -2,7 +2,7 @@
 
 Inspired by [Connor][1], this user style applies darker theme over default Facebook site and it removes quite a lot of (IMHO unnecessary) elements. Since I never use them, there was no point in keeping them anymore. You may disagree, hence the editing part.
 
-<img src="https://raw.github.com/tpetrina/user-styles/master/facebook/dark-version/screenshot.png" alt="screenshot" />
+<img src="https://raw.github.com/tpetrina/user-styles/master/facebook/dark-version/screenshot.jpg" alt="screenshot" />
 
 ## Installation
 Use the Stylish extension for the browser you prefer.  
